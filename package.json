@@ -1,8 +1,8 @@
 {
   "name": "rest-api-skeleton",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Skeleton application to Rest API with ExpressJS and Typescript",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "build": "babel src --extensions \".js,.ts\" --out-dir dist --copy-files --no-copy-ignored",
     "start": "ts-node-dev --respawn --transpileOnly --ignore-watch node_modules --no-notify src/server.ts",
