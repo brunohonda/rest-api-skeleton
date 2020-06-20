@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/brunohonda/resp-api-skeleton/issues"
   },
-  "homepage": "https://github.com/brunohonda/resp-api-skeleton#readme"
+  "homepage": "https://github.com/brunohonda/resp-api-skeleton#readme",
+  "dependencies": {
+    "typescript": "^3.9.5"
+  }
 }
