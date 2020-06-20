@@ -70,6 +70,15 @@
     "forceConsistentCasingInFileNames": true,  /* Disallow inconsistently-cased references to the same file. */
     
     /* Custom Options */
-    "resolveJsonModule": true
+    "resolveJsonModule": true,
+
+    /* Paths */
+    "baseUrl": "./src",
+    "paths": {
+      "@config/*": [ "./config/*" ],
+      "@controllers/*": [ "./controllers/*" ],
+      "@models/*": [ "./models/*" ],
+      "@views/*": [ "./views/*" ],
+    }
   }
 }
